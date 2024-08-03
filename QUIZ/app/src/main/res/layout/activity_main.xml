@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ 1!"
+        android:textSize="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:text="Matakuliah Mobile Programming TI21K1"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : 202411004"
+        android:textSize="10dp"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA : Bangkit Surya Mahardika"
+        android:textSize="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KELAS : TI21K1"
+        android:textSize="10dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="?android:attr/listDivider"
+        android:layout_marginTop="12dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="10dp"
+        android:text="1. Sejarah perkembangan Android dimulai tahun 2003 saat Andy Rubin, Rich Miner, Chris White dan NIck Sears mendirikan Android, Inc.
+Sebuah perusahaan besar di Palo Alto, California yang kemudian dipinang oleh Google pada tanggal 17 Agustus 2005.
+Di bawah naungan Google, Android menghilang dan tidak melahirkan apapun sampai pertengahan tahun 2008.
+Hingga pada 22 Oktober 2008, HTC Dream diluncurkan sebagai ponsel seluler komersial pertama yang berbasis Android.
+Dua tahun setelahnya, ponsel pintar seri Nexus One diluncurkan oleh Google dengan bantuan HTC selama proses pembuatan.
+Hingga akhirnya melahirkan berbagai brand dari OEM yang berbeda seperti Asus, Samsung, LG dan lain sebagainya.
+Selanjutnya perangkat Android mulai berkembang pesat dan menenggelamkan para pesaingnya.
+Bersama dengan perubahan, perkembangan dan perbaikan fitur yang membuat performa Android lebih optimal."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="2dp"
+        android:text="2. adb
+aidl, aapt, dexdump, dan dx
+bmgr,logcat"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="2dp"
+        android:text="3. dp atau dip
+Kepadatan Piksel yang Tidak Bergantung unit abstrak yang didasarkan pada kepadatan fisik layar. Unit-unit ini relatif terhadap 160 layar dpi, jadi satu dp adalah satu piksel pada 160layar dpi. Rasio dp-ke-piksel akan berubah dengan kepadatan layar, tetapi tidak harus dalam proporsi langsung. Catatan: Kompiler menerima dip dan dp, meskipun dp lebih konsisten dengan sp."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="2dp"
+        android:text="4. Activity adalah komponen yang dapat dilihat oleh pengguna, sehingga mereka dapat berinteraksi dengan aplikasi. Bila dibandingkan dengan aplikasi web dan desktop, Activity sama seperti halaman dan form. Intent dapat diartikan sebagai deskripsi abstrak dari operasi yang akan dilakukan Definisi lainnya adalah sebuah kelas dalam programming Android yang berfungsi untuk perpindahan activity."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:layout_marginTop="2dp"
+        android:text="5.  saat merancang desain aplikasi Android, membuat produk yang tidak hanya menyenangkan untuk digunakan tetapi juga dapat memberikan pengalaman yang relevan dan berdampak bagi pengguna."/>
+</LinearLayout>
